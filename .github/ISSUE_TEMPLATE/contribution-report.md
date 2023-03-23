@@ -1,13 +1,13 @@
 ---
-name: New Contribution
-about: Propose and track your Supernova Contribution.
+name: Contribution Report
+about: Report your completed contribution.
 title: Contribution Report - TITLE (Supernova Name)
-labels: ''
-assignees: ''
+labels: Completed Contribution
+assignees: Kcorb95
 
 ---
 
-# New Contribution
+# Contribution Report
 
 ## Contribution Type
 - [ ] Event Speaking
