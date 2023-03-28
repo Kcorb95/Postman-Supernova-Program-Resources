@@ -1,5 +1,11 @@
 name: New Contribution
 
+on:
+  workflow_dispatch:
+  # Add the following line to specify the webhook event
+  repository_dispatch:
+    types: [manual-update]
+
 jobs:
   update-file:
     runs-on: ubuntu-latest
