@@ -1,0 +1,29 @@
+name: New Contribution
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Update File
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          CONTRIBUTION_NAME: ${{ github.event.queryString.contribution_name }}
+          CONTRIBUTION_URL: ${{ github.event.queryString.contribution_url }}
+          CONTRIBUTION_DATE: ${{ github.event.queryString.contribution_date }}
+          CONTRIBUTION_AUTHOR: ${{ github.event.queryString.contribution_author }}
+          FILENAME: test.md
+          FILE_CONTENTS: "- ($CONTRIBUTION_DATE) ($CONTRIBUTION_NAME)[$CONTRIBUTION_URL] - $CONTRIBUTION_AUTHOR"
+        run: |
+          curl -X POST "$WEBHOOK_URL?contribution_name=$CONTRIBUTION_NAME?contribution_url=$CONTRIBUTION_URL?contribution_date=$CONTRIBUTION_DATE?contribution_author=$CONTRIBUTION_AUTHOR"
+          echo "$FILE_CONTENTS" > $FILENAME
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "Kevin Corbett"
+          git config --global user.email "kevin.corbett@postman.com"
+          git add $FILENAME
+          git commit -m "New Contribution $CONTRIBUTION_NAME by $CONTRIBUTION_AUTHOR"
+          git push
