@@ -35,5 +35,10 @@ jobs:
     - name: Install dependencies
       run: npm install @actions/core @actions/github
     - name: Run update-contributions.js
-      run: |
-        node .github/scripts/update-contributions.js ${{ github.event.inputs.contribution_name }} ${{ github.event.inputs.contribution_date }} ${{ github.event.inputs.contribution_url }} ${{ github.event.inputs.contribution_author }} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      env:
+        CONTRIBUTION_NAME: ${{ github.event.inputs.contribution_name }}
+        CONTRIBUTION_DATE: ${{ github.event.inputs.contribution_date }}
+        CONTRIBUTION_URL: ${{ github.event.inputs.contribution_url }}
+        CONTRIBUTION_AUTHOR: ${{ github.event.inputs.contribution_author }}
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: node .github/scripts/update-contributions.js
