@@ -12,7 +12,7 @@ on:
         required: true
         type: string
       contribution_date:
-        description: "When contribution took place"
+        description: "When contribution took place (YYYY-MM-DD)"
         required: true
         type: string
       contribution_author:
@@ -25,10 +25,12 @@ on:
 jobs:
   update-file:
     runs-on: ubuntu-latest
+    env:
+      ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
-    - name: Set up Node.js environment
+    - name: Install Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '14.x'
@@ -36,18 +38,10 @@ jobs:
       run: npm install @actions/core @actions/github
     - name: Run update-contributions.js
       env:
-        GITHUB_USERNAME: Kcorb95
-        GITHUB_EMAIL: kevin.corbett08@gmail.com
+        CONTRIBUTION_NAME: ${{ github.event.inputs.contribution_name }}
+        CONTRIBUTION_URL: ${{ github.event.inputs.contribution_url }}
+        CONTRIBUTION_DATE: ${{ github.event.inputs.contribution_date }}
+        CONTRIBUTION_AUTHOR: ${{ github.event.inputs.contribution_author }}
+        ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        node .github/scripts/update-contributions.js ${{ github.event.inputs.contribution_name }} ${{ github.event.inputs.contribution_date }} ${{ github.event.inputs.contribution_url }} ${{ github.event.inputs.contribution_author }} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-    - name: Commit changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        GITHUB_USERNAME: Kcorb95
-        GITHUB_EMAIL: kevin.corbett08@gmail.com
-      run: |
-        git config --global user.name "$GITHUB_USERNAME"
-        git config --global user.email "$GITHUB_EMAIL"
-        git add pages/contributions/Current-Contributions.md
-        git commit -m "Add new contribution: ${{ github.event.inputs.contribution_name }}"
-        git push origin HEAD:main
+        node .github/scripts/update-contributions.js "$CONTRIBUTION_NAME" "$CONTRIBUTION_DATE" "$CONTRIBUTION_URL" "$CONTRIBUTION_AUTHOR" "$ACCESS_TOKEN"
