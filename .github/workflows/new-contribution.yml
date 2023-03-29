@@ -37,3 +37,10 @@ jobs:
     - name: Run update-contributions.js
       run: |
         node .github/scripts/update-contributions.js ${{ github.event.inputs.contribution_name }} ${{ github.event.inputs.contribution_date }} ${{ github.event.inputs.contribution_url }} ${{ github.event.inputs.contribution_author }} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+    - name: Commit changes
+      run: |
+        git config --global user.name "Kevin Corbett"
+        git config --global user.email "kevin.corbett@postman.com"
+        git add .
+        git commit -m "Add new contributions"
+        git push
