@@ -41,6 +41,6 @@ jobs:
       run: |
         git config --global user.name "Kevin Corbett"
         git config --global user.email "kevin.corbett08@gmail.com"
-        git add Current-Contributions.md
+        git add pages/contributions/Current-Contributions.md
         git commit -m "Add new contributions"
         git push
