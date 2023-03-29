@@ -10,11 +10,6 @@ async function run() {
     const contributionAuthor = core.getInput('contribution_author');
     let contributionDate = new Date(core.getInput('contribution_date'));
 
-    // Check if date is valid
-    if (isNaN(contributionDate)) {
-      throw new Error('Invalid date format');
-    }
-
     // Format the date as "MMM. Dth"
     const nth = (d) => {
       if (d > 3 && d < 21) return 'th';
