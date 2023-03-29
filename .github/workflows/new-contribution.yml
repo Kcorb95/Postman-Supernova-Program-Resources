@@ -26,24 +26,12 @@ jobs:
   update-file:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Update File
-        env:
-          CONTRIBUTION_NAME: ${{ inputs.contribution_name}}
-          CONTRIBUTION_URL: ${{ inputs.contribution_url}}
-          CONTRIBUTION_DATE: ${{ inputs.contribution_date}}
-          CONTRIBUTION_AUTHOR: ${{ inputs.contribution_author}}
-          FILENAME: test.md
-          FILE_CONTENTS: "- ($CONTRIBUTION_DATE) ($CONTRIBUTION_NAME)[$CONTRIBUTION_URL] - $CONTRIBUTION_AUTHOR"
-        run: |
-          echo "$FILE_CONTENTS" > $FILENAME
-
-      - name: Commit Changes
-        run: |
-          git config --global user.name "Kevin Corbett"
-          git config --global user.email "kevin.corbett@postman.com"
-          git add $FILENAME
-          git commit -m "New Contribution $CONTRIBUTION_NAME by $CONTRIBUTION_AUTHOR"
-          git push
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14.x'
+    - name: Run update-contributions.js
+      run: |
+        node .github/scripts/update-contributions.js ${{ github.event.inputs.contribution_name }} ${{ github.event.inputs.contribution_date }} ${{ github.event.inputs.contribution_url }} ${{ github.event.inputs.contribution_author }} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
