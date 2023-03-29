@@ -10,6 +10,11 @@ async function run() {
     const contributionAuthor = core.getInput('contribution_author');
     let contributionDate = new Date(core.getInput('contribution_date'));
 
+    // Check if date is valid
+    if (isNaN(contributionDate)) {
+      throw new Error('Invalid date format');
+    }
+
     // Format the date as "MMM. Dth"
     const nth = (d) => {
       if (d > 3 && d < 21) return 'th';
@@ -45,24 +50,17 @@ async function run() {
     // Insert the new entry in the correct place
     const newContent = fileContent.slice(0, lastEntryIndex) + newEntry + fileContent.slice(lastEntryIndex);
     console.log(`New File Content Length: ${newContent.length}`);
-
+    
     // Commit the changes
-    const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+    const octokit = github.getOctokit(process.env.PERSONAL_ACCESS_TOKEN);
     const commit = await octokit.repos.createOrUpdateFileContents({
       owner: process.env.GITHUB_REPOSITORY_OWNER,
-      repo: process.env.GITHUB_REPOSITORY,
+      repo: process.env.GITHUB_REPOSITORY_NAME,
       path: filePath,
       message: `Add new contribution: ${contributionName}`,
       content: Buffer.from(newContent).toString('base64'),
       branch: 'main',
-      author: {
-        name: process.env.GITHUB_USERNAME,
-        email: process.env.GITHUB_EMAIL
-      },
-      committer: {
-        name: process.env.GITHUB_USERNAME,
-        email: process.env.GITHUB_EMAIL
-      },
+      sha: github.context.payload.after,
     });
 
     console.log(`Changes committed: ${commit.data.commit.html_url}`);
