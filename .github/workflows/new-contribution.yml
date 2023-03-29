@@ -2,7 +2,23 @@ name: New Contribution
 
 on:
   workflow_dispatch:
-  # Add the following line to specify the webhook event
+    inputs:
+      contribution_name:
+        description: "Name for the contribution"
+        required: true
+        type: string
+      contribution_url:
+        description: "Link to the contribution"
+        required: true
+        type: string
+      contribution_date:
+        description: "When contribution took place"
+        required: true
+        type: string
+      contribution_author:
+        description: "Supernova that authored contribution"
+        required: true
+        type: string
   repository_dispatch:
     types: [manual-update]
 
@@ -15,10 +31,10 @@ jobs:
 
       - name: Update File
         env:
-          CONTRIBUTION_NAME: ${{ github.event.queryString.contribution_name }}
-          CONTRIBUTION_URL: ${{ github.event.queryString.contribution_url }}
-          CONTRIBUTION_DATE: ${{ github.event.queryString.contribution_date }}
-          CONTRIBUTION_AUTHOR: ${{ github.event.queryString.contribution_author }}
+          CONTRIBUTION_NAME: ${{ inputs.contribution_name}}
+          CONTRIBUTION_URL: ${{ inputs.contribution_url}}
+          CONTRIBUTION_DATE: ${{ inputs.contribution_date}}
+          CONTRIBUTION_AUTHOR: ${{ inputs.contribution_author}}
           FILENAME: test.md
           FILE_CONTENTS: "- ($CONTRIBUTION_DATE) ($CONTRIBUTION_NAME)[$CONTRIBUTION_URL] - $CONTRIBUTION_AUTHOR"
         run: |
