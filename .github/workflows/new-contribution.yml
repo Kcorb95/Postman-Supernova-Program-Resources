@@ -40,7 +40,7 @@ jobs:
     - name: Commit changes
       run: |
         git config --global user.name "Kevin Corbett"
-        git config --global user.email "kevin.corbett@postman.com"
-        git add .
+        git config --global user.email "kevin.corbett08@gmail.com"
+        git add Current-Contributions.md
         git commit -m "Add new contributions"
         git push
