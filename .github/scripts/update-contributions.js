@@ -25,6 +25,7 @@ async function run() {
     // Get the content of the file
     const filePath = 'pages/contributions/Current-Contributions.md';
     const fileContent = await fs.readFile(filePath, 'utf8');
+    console.log(`File Content Length: ${fileContent.length}`);
 
     // Find the current year's header and its index
     const currentYear = new Date().getFullYear();
@@ -39,10 +40,12 @@ async function run() {
 
     // Build the new entry
     const newEntry = `- ${contributionDate}: [${contributionName}](${contributionUrl}) by ${contributionAuthor}\n`;
+    console.log(`New Contribution: ${newEntry}`);
 
     // Insert the new entry in the correct place
     const newContent = fileContent.slice(0, lastEntryIndex) + newEntry + fileContent.slice(lastEntryIndex);
-
+    console.log(`New File Content Length: ${newContent.length}`);
+    
     // Commit the changes
     const octokit = github.getOctokit(core.getInput('PERSONAL_ACCESS_TOKEN'));
     const commit = await octokit.repos.createOrUpdateFileContents({
