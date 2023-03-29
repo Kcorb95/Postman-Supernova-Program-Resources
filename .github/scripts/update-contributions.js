@@ -4,11 +4,11 @@ const { promises: fs } = require('fs');
 
 async function run() {
   try {
-    // Get inputs from environment variables
-    const contributionName = process.env.CONTRIBUTION_NAME;
-    const contributionUrl = process.env.CONTRIBUTION_URL;
-    const contributionAuthor = process.env.CONTRIBUTION_AUTHOR;
-    let contributionDate = new Date(process.env.CONTRIBUTION_DATE);
+    // Get inputs from workflow
+    const contributionName = core.getInput('contribution_name');
+    const contributionUrl = core.getInput('contribution_url');
+    const contributionAuthor = core.getInput('contribution_author');
+    let contributionDate = new Date(core.getInput('contribution_date'));
 
     // Format the date as "MMM. Dth"
     const nth = (d) => {
@@ -45,17 +45,24 @@ async function run() {
     // Insert the new entry in the correct place
     const newContent = fileContent.slice(0, lastEntryIndex) + newEntry + fileContent.slice(lastEntryIndex);
     console.log(`New File Content Length: ${newContent.length}`);
-    
+
     // Commit the changes
-    const octokit = github.getOctokit(core.getInput('PERSONAL_ACCESS_TOKEN'));
+    const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
     const commit = await octokit.repos.createOrUpdateFileContents({
-      owner: github.context.repo.owner,
-      repo: github.context.repo.repo,
+      owner: process.env.GITHUB_REPOSITORY_OWNER,
+      repo: process.env.GITHUB_REPOSITORY,
       path: filePath,
       message: `Add new contribution: ${contributionName}`,
       content: Buffer.from(newContent).toString('base64'),
       branch: 'main',
-      sha: github.context.payload.after,
+      author: {
+        name: process.env.GITHUB_USERNAME,
+        email: process.env.GITHUB_EMAIL
+      },
+      committer: {
+        name: process.env.GITHUB_USERNAME,
+        email: process.env.GITHUB_EMAIL
+      },
     });
 
     console.log(`Changes committed: ${commit.data.commit.html_url}`);
@@ -64,3 +71,5 @@ async function run() {
     core.setFailed(error.message);
   }
 }
+
+run();
