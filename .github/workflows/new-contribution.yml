@@ -32,6 +32,8 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '14.x'
+    - name: Install dependencies
+      run: npm install @actions/core @actions/github
     - name: Run update-contributions.js
       run: |
         node .github/scripts/update-contributions.js ${{ github.event.inputs.contribution_name }} ${{ github.event.inputs.contribution_date }} ${{ github.event.inputs.contribution_url }} ${{ github.event.inputs.contribution_author }} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
