@@ -30,7 +30,7 @@ async function run() {
     contributionDate = contributionDate.toLocaleString('default', { month: 'short' }) + '. ' + contributionDate.getDate() + nth(contributionDate.getDate());
 
     // Get the content of the file
-    const filePath = "Postman-Supernova-Program-Resources/contents/pages/contributions/Current-Contributions.md";
+    const filePath = "pages/contributions/Current-Contributions.md";
     const fileContent = await fs.readFile(filePath, 'utf8');
     console.log(`Old File Content Length: ${fileContent.length}`);
 
@@ -61,7 +61,7 @@ async function run() {
     const commit = await octokit.rest.repos.createOrUpdateFileContents({
       owner: process.env.GITHUB_REPOSITORY_OWNER,
       repo: process.env.GITHUB_REPOSITORY_NAME,
-      path: filePath,
+      path: "Postman-Supernova-Program-Resources/contents/pages/contributions/Current-Contributions.md",
       message: `Add new contribution: ${contributionName}`,
       content: Buffer.from(newContent).toString('base64'),
       branch: 'main',
