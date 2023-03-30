@@ -54,7 +54,7 @@ async function run() {
     console.log(`New File Content Length: ${newContent.length}`);
     
     // Commit the changes
-    const accessToken = process.argv[2];
+    const accessToken = process.env.PERSONAL_ACCESS_TOKEN;
     const octokit = github.getOctokit(accessToken);
     console.log(`Access Token: ${accessToken}`);
     console.log(octokit.repos);
