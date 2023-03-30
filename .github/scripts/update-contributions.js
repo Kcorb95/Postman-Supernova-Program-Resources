@@ -9,7 +9,13 @@ async function run() {
     const contributionUrl = core.getInput('contribution_url');
     const contributionAuthor = core.getInput('contribution_author');
     let contributionDate = new Date(core.getInput('contribution_date'));
-
+    
+    // Log Inputs
+    console.log(`Contribution Name: ${contributionName}`);
+    console.log(`Contribution URL: ${contributionUrl}`);
+    console.log(`Contribution Author: ${contributionAuthor}`);
+    console.log(`Contribution Date: ${contributionDate}`);
+    
     // Format the date as "MMM. Dth"
     const nth = (d) => {
       if (d > 3 && d < 21) return 'th';
@@ -25,7 +31,7 @@ async function run() {
     // Get the content of the file
     const filePath = 'pages/contributions/Current-Contributions.md';
     const fileContent = await fs.readFile(filePath, 'utf8');
-    console.log(`File Content Length: ${fileContent.length}`);
+    console.log(`Old File Content Length: ${fileContent.length}`);
 
     // Find the current year's header and its index
     const currentYear = new Date().getFullYear();
@@ -47,9 +53,9 @@ async function run() {
     console.log(`New File Content Length: ${newContent.length}`);
     
     // Commit the changes
-    console.log(process.env.ACCESS_TOKEN);
+    console.log(`Access Token: ${process.env.ACCESS_TOKEN}`);
     const octokit = github.getOctokit(process.env.ACCESS_TOKEN);
-    console.log(octokit);
+    console.log(octokit.repos);
     const commit = await octokit.repos.createOrUpdateFileContents({
       owner: process.env.GITHUB_REPOSITORY_OWNER,
       repo: process.env.GITHUB_REPOSITORY_NAME,
