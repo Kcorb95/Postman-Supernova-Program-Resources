@@ -45,6 +45,21 @@ async function run() {
       lastEntryIndex = fileContent.length;
     }
 
+    // Find the index to insert the new entry
+    let newIndex = lastEntryIndex;
+    let entryDates = [];
+    let match;
+    const entryRegex = /^- ([A-Za-z]{3}\. \d{1,2}(st|nd|rd|th)): .*/gm;
+    while ((match = entryRegex.exec(fileContent)) !== null) {
+      entryDates.push(new Date(match[1]));
+    }
+    for (let i = entryDates.length - 1; i >= 0; i--) {
+      if (contributionDate > entryDates[i]) {
+        newIndex = fileContent.indexOf(entryDates[i].toLocaleDateString('default', { month: 'short' }) + '. ' + entryDates[i].getDate() + nth(entryDates[i].getDate()), currentYearHeaderIndex);
+        break;
+      }
+    }
+
     // Build the new entry
     const newEntry = `- ${contributionDate}: [${contributionName}](${contributionUrl}) by ${contributionAuthor}\n`;
     console.log(`New Contribution: ${newEntry}`);
