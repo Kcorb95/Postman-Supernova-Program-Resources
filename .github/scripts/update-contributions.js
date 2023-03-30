@@ -34,39 +34,48 @@ async function run() {
     const fileContent = await fs.readFile(filePath, 'utf8');
     console.log(`Old File Content Length: ${fileContent.length}`);
 
-    // Find the current year's header and its index
-    const currentYear = new Date().getFullYear();
-    const currentYearHeader = `## ${currentYear}`;
-    const currentYearHeaderIndex = fileContent.indexOf(currentYearHeader);
+// Find the current year's header and its index
+const currentYear = new Date().getFullYear();
+const currentYearHeader = `## ${currentYear}`;
+const currentYearHeaderIndex = fileContent.indexOf(currentYearHeader);
 
-    // Find the last entry in the current year
-    let lastEntryIndex = fileContent.indexOf(currentYearHeader, currentYearHeaderIndex + 1);
-    if (lastEntryIndex === -1) {
-      lastEntryIndex = fileContent.length;
-    }
+// Find the last entry in the current year
+let lastEntryIndex = fileContent.indexOf(currentYearHeader, currentYearHeaderIndex + 1);
+if (lastEntryIndex === -1) {
+  lastEntryIndex = fileContent.length;
+}
 
-    // Find the index to insert the new entry
-    let newIndex = lastEntryIndex;
-    let entryDates = [];
-    let match;
-    const entryRegex = /^- ([A-Za-z]{3}\. \d{1,2}(st|nd|rd|th)): .*/gm;
-    while ((match = entryRegex.exec(fileContent)) !== null) {
-      entryDates.push(new Date(match[1]));
-    }
-    for (let i = entryDates.length - 1; i >= 0; i--) {
-      if (contributionDate > entryDates[i]) {
-        newIndex = fileContent.indexOf(entryDates[i].toLocaleDateString('default', { month: 'short' }) + '. ' + entryDates[i].getDate() + nth(entryDates[i].getDate()), currentYearHeaderIndex);
-        break;
+// Build the new entry
+const newEntry = `- ${contributionDate}: [${contributionName}](${contributionUrl}) by ${contributionAuthor}\n`;
+
+// Split the file content into an array of lines
+const lines = fileContent.split("\n");
+
+// Find the correct location to insert the new entry
+let insertIndex = lastEntryIndex;
+for (let i = currentYearHeaderIndex + 1; i < lastEntryIndex; i++) {
+  const line = lines[i];
+  const monthMatch = line.match(/^(\w{3})$/);
+  if (monthMatch) {
+    const month = monthMatch[1];
+    const nextLine = lines[i + 1];
+    if (nextLine) {
+      const dateMatch = nextLine.match(/^-\s(\d{1,2})/);
+      if (dateMatch) {
+        const day = parseInt(dateMatch[1]);
+        const entryDate = new Date(`${month} ${day}, ${currentYear}`);
+        if (entryDate > contributionDate) {
+          insertIndex = i + 1;
+          break;
+        }
       }
     }
+  }
+}
 
-    // Build the new entry
-    const newEntry = `- ${contributionDate}: [${contributionName}](${contributionUrl}) by ${contributionAuthor}\n`;
-    console.log(`New Contribution: ${newEntry}`);
-
-    // Insert the new entry in the correct place
-    const newContent = fileContent.slice(0, lastEntryIndex) + newEntry + fileContent.slice(lastEntryIndex);
-    console.log(`New File Content Length: ${newContent.length}`);
+// Insert the new entry in the correct place
+lines.splice(insertIndex, 0, newEntry);
+const newContent = lines.join("\n");
     
     // Commit the changes
     const accessToken = process.env.PERSONAL_ACCESS_TOKEN;
