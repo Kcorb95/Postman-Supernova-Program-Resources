@@ -9,7 +9,7 @@ async function run() {
     const contributionName = payload.inputs.contribution_name;
     const contributionUrl = payload.inputs.contribution_url;
     const contributionAuthor = payload.inputs.contribution_author;
-    let contributionDate = payload.inputs.contribution_date;
+    let contributionDate = new Date(payload.inputs.contribution_date);
     
     // Log Inputs
     console.log(`Contribution Name: ${contributionName}`);
