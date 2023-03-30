@@ -59,10 +59,14 @@ async function run() {
     console.log(`Access Token: ${accessToken}`);
     console.log(octokit.repos);
     const commit = await octokit.rest.repos.createOrUpdateFileContents({
-      owner: process.env.GITHUB_REPOSITORY_OWNER,
-      repo: process.env.GITHUB_REPOSITORY_NAME,
-      path: "TEST",
-      message: `Add new contribution: ${contributionName}`,
+      owner: "Kcorb95",
+      repo: "Postman-Supernova-Program-Resources",
+      path: filePath,
+      message: `New contribution: ${contributionName} by ${contributionAuthor}`,
+      committer: {
+        name: "Kevin Corbett",
+        email: "kevin.corbett08@gmail.com"
+      },
       content: Buffer.from(newContent).toString('base64'),
       branch: 'main',
       sha: github.context.payload.after,
