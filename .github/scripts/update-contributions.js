@@ -68,8 +68,7 @@ async function run() {
         email: "kevin.corbett08@gmail.com"
       },
       content: Buffer.from(newContent).toString('base64'),
-      branch: 'main',
-      sha: github.context.payload.after,
+      branch: 'main'
     });
 
     console.log(`Changes committed: ${commit.data.commit.html_url}`);
