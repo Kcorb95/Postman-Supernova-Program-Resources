@@ -58,6 +58,14 @@ async function run() {
     const octokit = github.getOctokit(accessToken);
     console.log(`Access Token: ${accessToken}`);
     console.log(octokit.repos);
+    
+    const { data: { sha: currentSha } } = await octokit.rest.repos.getContent({
+      owner: "Kcorb95",
+      repo: "Postman-Supernova-Program-Resources",
+      path: filePath,
+      ref: "main"
+    });
+    
     const commit = await octokit.rest.repos.createOrUpdateFileContents({
       owner: "Kcorb95",
       repo: "Postman-Supernova-Program-Resources",
@@ -68,7 +76,8 @@ async function run() {
         email: "kevin.corbett08@gmail.com"
       },
       content: Buffer.from(newContent).toString('base64'),
-      branch: 'main'
+      branch: 'main',
+      sha: currentSha,
     });
 
     console.log(`Changes committed: ${commit.data.commit.html_url}`);
