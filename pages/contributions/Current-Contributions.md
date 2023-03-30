@@ -11,6 +11,3 @@ See "How To Contribute" for information on how to do this.
 ## 2023
 
 ## 2022
-- Jan. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
-- Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
-- Feb. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
