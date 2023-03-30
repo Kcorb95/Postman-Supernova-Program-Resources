@@ -40,4 +40,4 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        node .github/scripts/update-contributions.js "$ACCESS_TOKEN"
+        node .github/scripts/update-contributions.js --token "$ACCESS_TOKEN"
