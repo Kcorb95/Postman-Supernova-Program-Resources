@@ -5,10 +5,11 @@ const { promises: fs } = require('fs');
 async function run() {
   try {
     // Get inputs from workflow
-    const contributionName = core.getInput('contribution_name');
-    const contributionUrl = core.getInput('contribution_url');
-    const contributionAuthor = core.getInput('contribution_author');
-    let contributionDate = new Date(core.getInput('contribution_date'));
+    const payload = github.context.payload;
+    const contributionName = payload.inputs.contribution_name;
+    const contributionUrl = payload.inputs.contribution_url;
+    const contributionAuthor = payload.inputs.contribution_author;
+    let contributionDate = payload.inputs.contribution_date;
     
     // Log Inputs
     console.log(`Contribution Name: ${contributionName}`);
