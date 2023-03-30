@@ -53,8 +53,9 @@ async function run() {
     console.log(`New File Content Length: ${newContent.length}`);
     
     // Commit the changes
-    console.log(`Access Token: ${process.env.ACCESS_TOKEN}`);
-    const octokit = github.getOctokit(process.env.ACCESS_TOKEN);
+    const accessToken = process.argv[2];
+    const octokit = github.getOctokit(accessToken);
+    console.log(`Access Token: ${accessToken}`);
     console.log(octokit.repos);
     const commit = await octokit.repos.createOrUpdateFileContents({
       owner: process.env.GITHUB_REPOSITORY_OWNER,
