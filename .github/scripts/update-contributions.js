@@ -30,7 +30,7 @@ async function run() {
     contributionDate = contributionDate.toLocaleString('default', { month: 'short' }) + '. ' + contributionDate.getDate() + nth(contributionDate.getDate());
 
     // Get the content of the file
-    const filePath = 'pages/contributions/Current-Contributions.md';
+    const filePath = "pages/contributions/Current-Contributions.md";
     const fileContent = await fs.readFile(filePath, 'utf8');
     console.log(`Old File Content Length: ${fileContent.length}`);
 
