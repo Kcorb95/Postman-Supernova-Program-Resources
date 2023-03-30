@@ -61,7 +61,7 @@ async function run() {
     const commit = await octokit.rest.repos.createOrUpdateFileContents({
       owner: process.env.GITHUB_REPOSITORY_OWNER,
       repo: process.env.GITHUB_REPOSITORY_NAME,
-      path: "Postman-Supernova-Program-Resources/contents/pages/contributions/Current-Contributions.md",
+      path: "TEST",
       message: `Add new contribution: ${contributionName}`,
       content: Buffer.from(newContent).toString('base64'),
       branch: 'main',
