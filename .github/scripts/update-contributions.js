@@ -58,7 +58,7 @@ async function run() {
     const octokit = github.getOctokit(accessToken);
     console.log(`Access Token: ${accessToken}`);
     console.log(octokit.repos);
-    const commit = await octokit.repos.createOrUpdateFileContents({
+    const commit = await octokit.rest.repos.createOrUpdateFileContents({
       owner: process.env.GITHUB_REPOSITORY_OWNER,
       repo: process.env.GITHUB_REPOSITORY_NAME,
       path: filePath,
