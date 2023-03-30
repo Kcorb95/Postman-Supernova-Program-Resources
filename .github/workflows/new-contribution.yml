@@ -26,8 +26,10 @@ jobs:
   update-file:
     runs-on: ubuntu-latest
     env:
-      ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     steps:
+    - name: Debug PERSONAL_ACCESS_TOKEN
+      run: echo $PERSONAL_ACCESS_TOKEN
     - name: Checkout Code
       uses: actions/checkout@v2
     - name: Install Node.js
@@ -37,7 +39,5 @@ jobs:
     - name: Install dependencies
       run: npm install @actions/core @actions/github
     - name: Run update-contributions.js
-      env:
-        ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        node .github/scripts/update-contributions.js --token "$ACCESS_TOKEN"
+        node .github/scripts/update-contributions.js "$PERSONAL_ACCESS_TOKEN"
