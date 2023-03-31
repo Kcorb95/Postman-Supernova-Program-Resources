@@ -14,7 +14,10 @@ To remain in the program, we require regular event participation or content cont
 - Postman early access feedback.
 - [Quickstarts contributions](https://youtu.be/aLehVZegyXk).
 
-## Submitting your Contributions
+## Planning Your Contribution
+If you're thinking of contributing an event, a piece of content or one of the other above accepted contribution types, please [open a new issue](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/issues/new?assignees=Kcorb95&labels=Contribution+Proposal&template=contribution-proposal.md&title=Contribution+Proposal+-+TITLE+%28Supernova+Name%29) to detail your plans so that we may help enable you to do the best that you can and schedule marketing to help promote. Note that this is NOT the contribution report that you will have to fill out via the section below *after* your event.
+
+## Submitting Your Contributions
 In order to get credit for your contributions, increase your exposure and remain in the program, you will need to [submit your contribution report](https://airtable.com/shrM6Uh7WqOEJJQZ7). Additionally, contributions must be both shared on social media and the Postman community forums.
 
-Supernova Contributions (Links to page on Github that serves as “database”) // TODO
+[Supernova Contributions](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md)
