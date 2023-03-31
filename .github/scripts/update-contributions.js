@@ -40,7 +40,7 @@ async function run() {
     console.log("New Entry" + newEntry + "\n");
 
     // Read in file
-    const filePath = "./Contributions.md";
+    const filePath = "pages/contributions/Current-Contributions.md";
     const fileContent = await fs.readFile(filePath, "utf8");
 
     // Find current year's header
