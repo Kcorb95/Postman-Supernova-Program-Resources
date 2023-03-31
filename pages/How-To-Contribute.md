@@ -1,6 +1,6 @@
 # Making Your Contributions & Continued Participation
 
-## How do I participate?
+## How Do I Participate?
 Now that you have been formally inducted into the Supernova program, you have access to the official Postman Slack channel which serves as our primary method of communication. Slack is the best way to keep up to date with current events, opportunities and other things happening. There is also a special section of the Postman community forums for Supernovas and an official [Twitter community](https://twitter.com/i/communities/1529542918717022209).
 
 ## Continued Participation
