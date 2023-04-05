@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Dec. 12th: [How to Query a Database from Postman with Hasura](https://medium.com/p/cde4f9c96699) by Valentin Despa
 - Dec. 20th: [Getting Started with the OpenAI API with Postman](https://medium.com/p/52fea7f8131a) by Valentin Despa
 - Dec. 26th: [How to Use the DALL·E 2 API from OpenAI to Generate Images in Postman](https://medium.com/p/687aa5419e77) by Valentin Despa
 - Dec. 26th: [How to Connect to a Database from Postman](https://medium.com/p/fd19804eaba0) by Valentin Despa
