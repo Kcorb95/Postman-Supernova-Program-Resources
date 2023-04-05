@@ -10,6 +10,7 @@ See "How To Contribute" for information on how to do this.
 - [2021](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md#2021)
 
 ## 2023
+- Jan. 13th: [Teste de contrato com o Postman - parte 1](https://www.youtube.com/watch?v=PFMXOyTjgcE) by Cristina Nazário
 - Jan. 16th: [Securing Your API Endpoints with Amazon Cognito and Testing the OAuth 2.0 Client Credentials Flow with Postman](https://medium.com/apis-with-valentine/securing-your-api-endpoints-with-amazon-cognito-and-testing-the-oauth-2-0-49d9d527dc6d) by Valentin Despa
 - Jan. 19th: [Teste de contrato com o Postman - parte 2](https://youtu.be/cHmLtTx1US4) by Cristina Nazário
 - Jan. 21st: [Test the Tribe Chennai Meetup](https://www.thetesttribe.com/the-test-tribe-7th-chennai-meetup/) by Saravanan Seenivasan
