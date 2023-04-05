@@ -10,6 +10,7 @@ See "How To Contribute" for information on how to do this.
 - [2021](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md#2021)
 
 ## 2023
+- Jan. 19th: [Teste de contrato com o Postman - parte 2](https://youtu.be/cHmLtTx1US4) by Cristina Nazário
 - Jan. 21st: [Test the Tribe Chennai Meetup](https://www.thetesttribe.com/the-test-tribe-7th-chennai-meetup/) by Saravanan Seenivasan
 - Feb. 3rd: [APIs are the nexus of modern software development](https://twitter.com/alopezari/status/1621495341106216963) by Alex Lopez
 - Feb. 11th: [Postman - An API Testing Tool (Basic to Advance Tutorial)](https://www.youtube.com/watch?v=b8X24Afl_G4&list=PL3IwAics3J0ef1VZCgmwRuZASzAi7eNcT) by Md Moeen Ajaz Khan
