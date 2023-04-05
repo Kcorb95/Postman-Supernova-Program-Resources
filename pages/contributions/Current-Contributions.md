@@ -5,20 +5,15 @@ As a Supernova, you are responsible for submitting your contributions via pull r
 See "How To Contribute" for information on how to do this.
 
 ## Archives
-- [2022](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md#2022)
 - [2023](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md#2023)
+- [2022](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md#2022)
+- [2021](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md#2021)
 
 ## 2023
-- Mar. 3rd: [How to use the Whisper API from OpenAI in Postman](https://medium.com/apis-with-valentine/how-to-use-the-whisper-api-from-openai-in-postman-9a9a9f97807c) by Valentin Despa
-- Mar. 7th: [Getting Started with the ChatGPT API](https://medium.com/apis-with-valentine/getting-started-with-the-chatgpt-api-4d884b20f6d0) by Valentin Despa
-- Mar. 9th: [Introduction to the ChatGPT API with Postman](https://youtu.be/rlLwSr-wIAg) by Valentin Despa
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
-- Mar. 31st: [An AirTable Form Contribution](https://github.com/Kcorb95/Postman-Supernova-Program-Resources) by Kevin Corbett
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
-- May. 11th: [Test Blog](https://airtable.com/shrM6Uh7WqOEJJQZ7) by Kevin 
-- Sep. 3rd: [Game of Testing](https://www.linkedin.com/posts/game-of-testing_gamification-banglore-testing-activity-6951393852305850368-67zA?utm_source=linkedin_share&utm_medium=android_app) by Sowmya Sridharamurthy
 
 ## 2021
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
