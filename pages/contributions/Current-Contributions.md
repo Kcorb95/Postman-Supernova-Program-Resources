@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Oct. 17th: [Newman vs Postman CLI — Which one to use?](https://medium.com/p/f05386303544) by Valentin Despa
 - Oct. 22nd: [Software testing with Postman](https://www.eventbrite.com/e/software-testing-with-postman-tickets-423573849787) by Trisha Chetani
 - Oct. 24th: [Run Postman Collection API Tests with Postman CLI in GitLab CI](https://medium.com/p/73857e27a4cc) by Valentin Despa
 - Nov. 10th: [Test Academy](https://event.testacademy.es/malaga/index.php/events/adoptando-un-enfoque-api-first/) by Alex Lopez
