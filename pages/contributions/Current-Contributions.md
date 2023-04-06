@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Nov. 10th: [Test Academy](https://event.testacademy.es/malaga/index.php/events/adoptando-un-enfoque-api-first/) by Alex Lopez
 - Nov. 12th: [Postman - Scheduling Collection Runner](https://youtu.be/XkxBD3mm6Ow) by Saravanan Seenivasan
 - Nov. 14th: [Download a File with Postman and Reuse its Content in Another Request](https://medium.com/apis-with-valentine/download-a-file-with-postman-and-reuse-its-content-in-another-request-bb477396ac37) by Valentin Despa
 - Nov. 22nd: [Postman Student Programs - Software Development Learning Assistant](https://www.youtube.com/watch?v=lK3zEgrEM44) by Alex Lopez
