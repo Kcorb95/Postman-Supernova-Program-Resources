@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Sep. 30th: [Postman: Hands On](https://youtu.be/3ou0P-cnyac) by Fabián Feld
 - Oct. 8th: [TestFlix 2022](https://www.thetesttribe.com/testflix-2022/) by Pricilla Bilavendran
 - Oct. 9th: [Unboxing of Postman CLI](https://chandmohammad.hashnode.dev/unboxing-of-postman-cli) by ChanduMohammad S
 - Oct. 17th: [Newman vs Postman CLI — Which one to use?](https://medium.com/p/f05386303544) by Valentin Despa
