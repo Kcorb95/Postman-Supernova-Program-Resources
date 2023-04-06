@@ -20,4 +20,5 @@ If you're thinking of contributing an event, a piece of content or one of the ot
 ## Submitting Your Contributions
 In order to get credit for your contributions, increase your exposure and remain in the program, you will need to [submit your contribution report](https://airtable.com/shrM6Uh7WqOEJJQZ7) after each event/contribution. Additionally, contributions must be both shared on social media and the Postman community forums.
 
+
 [List of Supernova Contributions](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md)
