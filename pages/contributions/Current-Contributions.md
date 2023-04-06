@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Sep. 23rd: [Testμ 2022](will.be conducting 45 mins Masterclass) by Sowmya Sridharamurthy
 - Sep. 24th: [Postman CLI | Automate runs via CLI](https://youtu.be/3CLU7Y37zDs) by Saravanan Seenivasan
 - Sep. 30th: [Postman: Hands On](https://youtu.be/3ou0P-cnyac) by Fabián Feld
 - Oct. 8th: [TestFlix 2022](https://www.thetesttribe.com/testflix-2022/) by Pricilla Bilavendran
