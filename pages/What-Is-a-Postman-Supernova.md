@@ -12,7 +12,9 @@ If you enjoy learning and sharing your knowledge with other developers, then you
 [Apply To Be a Supernova](https://www.postman.com/company/supernovas-program/)
 
 # Process for Approved Applications
-After your application has been approved, Postman’s technical community manager will reach out to you with next steps. This process is outlined on our website in more detail.
+After your application has been approved, Postman’s community manager will reach out to you with next steps.
+
+This process is [outlined on our website](https://www.postman.com/company/supernovas-program/joining/) in more detail.
 - Complete required trainings (30 Days of Postman etc.)
 - Update your Postman public profile and workspace(s).
 - Submit your initial contribution request.
