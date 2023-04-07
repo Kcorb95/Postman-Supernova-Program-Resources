@@ -21,8 +21,9 @@ Look into tools like [NVIDIA Broadcast](https://www.nvidia.com/en-us/geforce/bro
 
 ## Creating Better Assets
 It's important to keep in mind that first appearances are EVERYTHING when it comes to getting clicks and registrations for your events, videos and blog posts. High quality and simple images are very important. Try to remember a simple rule: less is more. Don't try to fill your image with too much text. Try to make it clear and understandable from just a glance on a small screen.
+--- 
+### There are numerous free tools for creating images and editing video:
 
-There are numerous free tools for creating images and editing video:
 **Image Editing**
 - [Adobe Express](https://www.adobe.com/express/)
 - [Canva](https://www.canva.com/)
