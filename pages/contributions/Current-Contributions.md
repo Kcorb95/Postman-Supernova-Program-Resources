@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Jul. 28th: [API Testing con Postman](https://www.linkedin.com/posts/intive_intive-oneintive-cultureoflearning-activity-6960265573742059520-tELy?utm_source=linkedin_share&utm_medium=member_desktop_web) by Fabián Feld
 - Jul. 30th: [Minas Testing Conference](https://minastestingconference.com.br/) by Cristina Nazário
 - Aug. 5th: [Upload the data files for collection monitors](https://www.youtube.com/watch?v=C3Vk3_xRdfE) by Saravanan Seenivasan
 - Aug. 6th: [API & Postman Testing Course](https://www.linkedin.com/company/nahual/mycompany/) by Fabián Feld
