@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Aug. 12th: [Postman 101 - Introducción](https://gdg.community.dev/events/details/google-gdg-san-pedro-sula-presents-postman-101-introduccion/) by Christian Sánchez
 - Aug. 17th: [Postman V10 Features](https://youtube.com/shorts/A1Ls5Us7nj0?feature=share) by Saravanan Seenivasan
 - Aug. 24th: [TestMu Conference 2022](https://youtu.be/_HRoTySWtY8) by Pricilla Bilavendran
 - Aug. 30th: [Postman: Hands on](https://www.linkedin.com/feed/update/urn:li:activity:6966020051636248577/) by Fabián Feld
