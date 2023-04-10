@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Jul. 30th: [Minas Testing Conference](https://minastestingconference.com.br/) by Cristina Nazário
 - Aug. 5th: [Upload the data files for collection monitors](https://www.youtube.com/watch?v=C3Vk3_xRdfE) by Saravanan Seenivasan
 - Aug. 6th: [API & Postman Testing Course](https://www.linkedin.com/company/nahual/mycompany/) by Fabián Feld
 - Aug. 12th: [Postman 101 - Introducción](https://gdg.community.dev/events/details/google-gdg-san-pedro-sula-presents-postman-101-introduccion/) by Christian Sánchez
