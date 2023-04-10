@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Jul. 11th: [How to perform Bulk Actions on Postman's Collection Sidebar](https://chandmohammad.hashnode.dev/how-to-perform-bulk-actions-on-postmans-collection-sidebar) by ChanduMohammad S
 - Jul. 16th: [API Testing for Everyone](https://www.eventbrite.com/e/synapse-qa-meetup-api-testing-for-everyone-tickets-373500689617) by Pricilla Bilavendran
 - Jul. 28th: [API Testing con Postman](https://www.linkedin.com/posts/intive_intive-oneintive-cultureoflearning-activity-6960265573742059520-tELy?utm_source=linkedin_share&utm_medium=member_desktop_web) by Fabián Feld
 - Jul. 30th: [Minas Testing Conference](https://minastestingconference.com.br/) by Cristina Nazário
