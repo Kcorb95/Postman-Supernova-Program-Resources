@@ -1,8 +1,8 @@
 # Making Your Contributions & Continued Participation
 
 ## How Do I Participate?
-Now that you have been formally inducted into the Supernova program, you have access to a multitude of resources and opportunities. The [Discussions tab](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/discussions) on this page serves as our primary method of communication. In addition to that, you should have access to the official Postman Slack channel where we often post additional opportunities that are under NDA and cannot be shared publicly within this page.
-Both of these places are the best way to keep up to date with current events, opportunities and other things happening within the community.
+As a Postman Supernova, you have access to various resources and opportunities. Use the [Discussions tab](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/discussions) on this page to share your work and stay updated on events, opportunities, and community news.
+In addition to that, you also have access to the official Postman Slack channel where we often post additional opportunities that are under NDA and cannot be shared publicly within this page.
 
 ## Continued Participation
 To remain in the program, we require regular event participation or content contributions. This means one event (speaking/hosting) or two content contributions per-quarter. Contributions should be of equal effort to one another, meaning a longer and more involved content contribution could eliminate the need to make a second contribution.
