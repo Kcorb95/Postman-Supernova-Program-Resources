@@ -26,6 +26,7 @@ See "How To Contribute" for information on how to do this.
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
 - May. 6th: [Legendary Weapons in EF Core](https://youtu.be/qKV69gxs4JM) by Christian Sánchez
+- May. 6th: [API Testing with Postman like a Pro](https://www.linkedin.com/posts/chandumohammad_join-postman-supernova-sule-balogun-olanrewaju-activity-6925498029097578496-GlJV) by ChanduMohammad S
 - May. 11th: [How to mock the APIs and how is that helpful?](https://medium.com/p/d367fd237fb9) by Pricilla Bilavendran
 - Jun. 23rd: [TestBash World 2022](https://twitter.com/ministryoftest/status/1539816866880823296) by Pricilla Bilavendran
 - Jun. 24th: [Treinamentos, desafios e cursos gratuitos sobre testes de API com o Postman](https://medium.com/@cmnazariio/treinamentos-desafios-e-cursos-gratuitos-sobre-testes-de-api-com-o-postman-a0b90150180) by Cristina Nazário
