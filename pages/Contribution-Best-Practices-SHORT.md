@@ -22,6 +22,9 @@
 - Include visuals like diagrams, tables, and charts.
 - Keep content concise and to the point.
 - Use tools like [Grammarly](https://www.grammarly.com) or peer reviews for proofreading.
+- Be consistent with terminology and formatting.
+- Use [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/) whenever possible.
+- Avoid calling things "simple" or "easy" -- these are subjective and can alienate beginners who might not find the subject matter to be simple.
 
 ### Improving Video Content
 - Ensure good audio and proper, bright lighting.
