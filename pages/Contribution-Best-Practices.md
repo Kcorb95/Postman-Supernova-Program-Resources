@@ -12,6 +12,9 @@ Social media platforms are great tools for promoting your contributions and buil
 ### Making the Most of Your Contribution
 Try to think of other types of content that can compliment your contribution. For example, a video could come with a blog post (and vice versa!) an event could have multiple videos, blog posts and a livestream all before, during and after the event. All pieces of content can be shared multiple times in multiple ways across your social media channels. Even a handful of pictures of a crowd at your event/talk can help raise more awareness.
 
+### Improving Written Content
+Use simple and clear language. Avoid jargon, complex words and lengthy sentences. Use plain, straightforward language to make your content easy to understand. Organizing your content into sections and subsections with clear headings will help your readers navigate the content and find the information they need quickly. Use of visuals such as diagrams, tables and charts to help explain complex concepts will make your content more engaging and easier to follow. Eliminate uneccessary words and phrases to keep your content more concise and to the point.
+
 ### Improving Video Content
 The two most important things that you can do to have better quality video is to have good audio and proper, bright, lighting. Darker scenes end up looking worse on camera. Good audio is very important to get your message across properly and for building a following. 
 
@@ -39,5 +42,8 @@ It's important to keep in mind that first appearances are EVERYTHING when it com
 **Video Editing**
 - [iMovie](https://www.apple.com/imovie/)
 - [DaVinci Resolve](https://www.blackmagicdesign.com/ca/products/davinciresolve)
+
+**Writing**
+- [Grammarly](https://www.grammarly.com)
 
 *Feel free to submit other free tools that could be useful to others via an [Issue](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/issues)!*
