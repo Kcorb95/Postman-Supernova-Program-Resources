@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Jun. 23rd: [TestBash World 2022](https://twitter.com/ministryoftest/status/1539816866880823296) by Pricilla Bilavendran
 - Jun. 24th: [Treinamentos, desafios e cursos gratuitos sobre testes de API com o Postman](https://medium.com/@cmnazariio/treinamentos-desafios-e-cursos-gratuitos-sobre-testes-de-api-com-o-postman-a0b90150180) by Cristina Nazário
 - Jun. 24th: [5 dicas sobre o que podemos fazer no Postman](https://youtu.be/xejYUpv0UB0) by Cristina Nazário
 - Jul. 7th: [Side bar multi-select of requests to move across other collections](https://youtu.be/Y0WoWgb1ig8) by Saravanan Seenivasan
