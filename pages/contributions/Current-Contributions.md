@@ -24,6 +24,7 @@ See "How To Contribute" for information on how to do this.
 - Mar. 25th: [How To Import WSDL of a SOAP Web Service in Postman for API Testing](https://youtu.be/k9oE4lDKcog) by Md Moeen Ajaz Khan
 
 ## 2022
+- Jan. 8th: [Getting Started with Postman for Beginners in Backend Development](https://drive.google.com/file/d/1G3PRCh02T8VUm7PD7tHya6YFll5yucjB/view?usp=sharing) by Deborah Emeni
 - Feb. 26th: [Supernova's Galaxy Quest - Level up your testing with Postman](https://www.airmeet.com/e/87505660-87f1-11ec-8191-5bcd4f3784e4) by Anuradha Raman
 - Feb. 26th: [Supernova’s Galaxy Quest](https://lnkd.in/eCu4dwbC) by Pricilla Bilavendran
 - Feb. 26th: [Supernova's Galaxy Quest - Level up your testing with Postman](https://www.airmeet.com/e/87505660-87f1-11ec-8191-5bcd4f3784e4) by Anuradha Raman
