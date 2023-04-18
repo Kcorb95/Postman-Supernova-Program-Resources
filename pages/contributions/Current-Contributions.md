@@ -24,6 +24,7 @@ See "How To Contribute" for information on how to do this.
 - Mar. 25th: [How To Import WSDL of a SOAP Web Service in Postman for API Testing](https://youtu.be/k9oE4lDKcog) by Md Moeen Ajaz Khan
 
 ## 2022
+- Feb. 26th: [Supernova's Galaxy Quest - Level up your testing with Postman](https://www.airmeet.com/e/87505660-87f1-11ec-8191-5bcd4f3784e4) by Anuradha Raman
 - Mar. 7th: [Exploring APIs from a QA perspective](https://ticode.com.br/portfolio/eventos/Palestra%20SENAI%2007-02-2022.jpeg) by Cristina Nazário
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
 - Mar. 12th: [Building APIs with Firebase Cloud Firestore and .NET](https://gdg.community.dev/events/details/google-gdg-trelew-presents-creando-api-con-firebase-cloud-firestore-y-net/) by Christian Sánchez
