@@ -25,6 +25,7 @@ See "How To Contribute" for information on how to do this.
 
 ## 2022
 - Mar. 10th: [Contribution Name](https://google.com/) by Kevin Corbett
+- Mar. 12th: [Building APIs with Firebase Cloud Firestore and .NET](https://gdg.community.dev/events/details/google-gdg-trelew-presents-creando-api-con-firebase-cloud-firestore-y-net/) by Christian Sánchez
 - Apr. 9th: [Codeless Conf 2022](https://www.tech-talks.info/codeless-conf) by Pricilla Bilavendran
 - Apr. 15th: [When and How To Mock APIs (and How It’s Helpful)](https://medium.com/p/d367fd237fb9) by Pricilla Bilavendran
 - May. 5th: [API First: Cuando el actor de reparto se convierte en protagonista](https://www.meetup.com/releevant/events/285563986/) by Alex Lopez
