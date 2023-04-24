@@ -15,11 +15,11 @@ Join us over on the [discussion tab](https://github.com/Kcorb95/Postman-Supernov
 #### Contribution Resources
 - [How to Contribute / Making Contributions](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/How-To-Contribute.md)
 - [List of Current Contributions](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/contributions/Current-Contributions.md)
-- [Contribution Best Practices](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Contribution-Best-Practices.md#contribution-best-practices)
-- [Improving Your Content](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Contribution-Best-Practices.md#improving-video-content)
+- [Contribution Best Practices](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Contribution-Best-Practices-SHORT.md#contribution-best-practices)
+- [Improving Your Content](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Contribution-Best-Practices-SHORT.md#improving-written-content)
   
 #### Helpful Resources
-- [Learning Resources]()
-- [Asset Templates]()
-- [Free Tools]()
-- [Event Sponsorship]()
+- [Learning Resources](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Helpful-Resources.md#learning-resources)
+- [Asset Templates](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Helpful-Resources.md#important-links)
+- [Free Tools](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Contribution-Best-Practices-SHORT.md#free-tools-for-content-creation)
+- [Event Sponsorship](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Helpful-Resources.md#event-sponsorship)
