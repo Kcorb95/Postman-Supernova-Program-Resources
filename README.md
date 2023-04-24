@@ -10,7 +10,7 @@ Join us over on the [discussion tab](https://github.com/Kcorb95/Postman-Supernov
 #### Overview
 - [What is a Postman Supernova?](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/What-Is-a-Postman-Supernova.md)
 - [Apply Now](https://www.postman.com/company/supernovas-program/)
-- [Current Supernova]()
+- [Current Supernova](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Current-Supernova.md)
 
 #### Contribution Resources
 - [How to Contribute / Making Contributions](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/How-To-Contribute.md)
