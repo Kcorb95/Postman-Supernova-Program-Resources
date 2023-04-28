@@ -5,10 +5,11 @@
 If you enjoy learning and sharing your knowledge with other developers, then you should apply to be a Postman Supernova!
 
 ## Postman Supernovas must:
-- Create or share technical content via public speaking, organizing events, videos or blog posts.
+- Create or share technical content via public speaking, organizing events, videos or blog posts. See [Best Practices](https://github.com/Kcorb95/Postman-Supernova-Program-Resources/blob/main/pages/Contribution-Best-Practices-SHORT.md#contribution-best-practices).
 - Make quarterly contributions to the program.
 - Be active participants and leaders in a technical community.
 - Uphold Postman's core values of being curious, collaborating, experimenting and being resourceful.
+
 [Apply To Be a Supernova](https://www.postman.com/company/supernovas-program/)
 
 # Process for Approved Applications
