@@ -22,6 +22,7 @@ See "How To Contribute" for information on how to do this.
 - Mar. 7th: [Getting Started with the ChatGPT API](https://medium.com/apis-with-valentine/getting-started-with-the-chatgpt-api-4d884b20f6d0) by Valentin Despa
 - Mar. 9th: [Introduction to the ChatGPT API with Postman](https://youtu.be/rlLwSr-wIAg) by Valentin Despa
 - Mar. 25th: [How To Import WSDL of a SOAP Web Service in Postman for API Testing](https://youtu.be/k9oE4lDKcog) by Md Moeen Ajaz Khan
+- Apr. 25th: [Allure Report for Postman Collection](https://www.youtube.com/watch?v=e7b0X-XIhfA) by Saravanan Seenivasan
 
 ## 2022
 - Jan. 8th: [Getting Started with Postman for Beginners in Backend Development](https://drive.google.com/file/d/1G3PRCh02T8VUm7PD7tHya6YFll5yucjB/view?usp=sharing) by Deborah Emeni
