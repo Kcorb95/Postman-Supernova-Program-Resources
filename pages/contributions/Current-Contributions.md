@@ -51,6 +51,7 @@ See "How To Contribute" for information on how to do this.
 - Aug. 6th: [API & Postman Testing Course](https://www.linkedin.com/company/nahual/mycompany/) by Fabián Feld
 - Aug. 12th: [Postman 101 - Introducción](https://gdg.community.dev/events/details/google-gdg-san-pedro-sula-presents-postman-101-introduccion/) by Christian Sánchez
 - Aug. 17th: [Postman V10 Features](https://youtube.com/shorts/A1Ls5Us7nj0?feature=share) by Saravanan Seenivasan
+- Aug. 20th: [Fly High With Mock Servers Using Postman](https://docs.google.com/presentation/d/1GTd-WuulhW5jnaLd8aNbnYCS-Zcro3eDLQym-svNWE8) by Muhammad Awais
 - Aug. 24th: [TestMu Conference 2022](https://youtu.be/_HRoTySWtY8) by Pricilla Bilavendran
 - Aug. 30th: [Postman: Hands on](https://www.linkedin.com/feed/update/urn:li:activity:6966020051636248577/) by Fabián Feld
 - Sep. 3rd: [Game of Testing](https://www.linkedin.com/posts/game-of-testing_gamification-banglore-testing-activity-6951393852305850368-67zA?utm_source=linkedin_share&utm_medium=android_app) by Sowmya Sridharamurthy
