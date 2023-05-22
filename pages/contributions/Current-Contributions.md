@@ -26,6 +26,7 @@ See "How To Contribute" for information on how to do this.
 - Apr. 11th: [Beginners Guide To Whisper API: Audio to Text Conversion](https://youtu.be/WuiI7FG2L1k) by Valentin Despa
 - Apr. 13th: [Getting Started With the GPT-4 API in Postman](https://medium.com/p/beab175bcd17) by Valentin Despa
 - Apr. 25th: [Allure Report for Postman Collection](https://www.youtube.com/watch?v=e7b0X-XIhfA) by Saravanan Seenivasan
+- May. 6th: [Performance Testing Using Postman App](https://youtu.be/V6dwjg0qrUk) by Saravanan Seenivasan
 
 ## 2022
 - Jan. 8th: [Getting Started with Postman for Beginners in Backend Development](https://drive.google.com/file/d/1G3PRCh02T8VUm7PD7tHya6YFll5yucjB/view?usp=sharing) by Deborah Emeni
