@@ -28,6 +28,7 @@ See "How To Contribute" for information on how to do this.
 - Apr. 25th: [Allure Report for Postman Collection](https://www.youtube.com/watch?v=e7b0X-XIhfA) by Saravanan Seenivasan
 - May. 6th: [Performance Testing Using Postman App](https://youtu.be/V6dwjg0qrUk) by Saravanan Seenivasan
 - May. 16th: [Fun with Chat GPT API](https://www.linkedin.com/posts/intive_webinar-fun-with-chatgpt-api-parte-2-activity-7063910307903004672-ceae/) by Fabián Feld
+- May. 21st: [Verify HTML Value Using cheerio.js | Web Scraping Using cheerio.js](https://youtu.be/2IUA5rc7PmI) by Md Moeen Ajaz Khan
 
 ## 2022
 - Jan. 8th: [Getting Started with Postman for Beginners in Backend Development](https://drive.google.com/file/d/1G3PRCh02T8VUm7PD7tHya6YFll5yucjB/view?usp=sharing) by Deborah Emeni
