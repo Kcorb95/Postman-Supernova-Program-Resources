@@ -22,6 +22,7 @@ See "How To Contribute" for information on how to do this.
 - Mar. 7th: [Getting Started with the ChatGPT API](https://medium.com/apis-with-valentine/getting-started-with-the-chatgpt-api-4d884b20f6d0) by Valentin Despa
 - Mar. 9th: [Introduction to the ChatGPT API with Postman](https://youtu.be/rlLwSr-wIAg) by Valentin Despa
 - Mar. 25th: [How To Import WSDL of a SOAP Web Service in Postman for API Testing](https://youtu.be/k9oE4lDKcog) by Md Moeen Ajaz Khan
+- Mar. 31st: [API Testing Tutorials 1 – Idempotency, Safe, Cache and Versioning Concept in REST API | Postman](https://www.youtube.com/watch?v=tqzcJFJ60nM) by Saif Siddiqui
 - Apr. 25th: [Allure Report for Postman Collection](https://www.youtube.com/watch?v=e7b0X-XIhfA) by Saravanan Seenivasan
 
 ## 2022
